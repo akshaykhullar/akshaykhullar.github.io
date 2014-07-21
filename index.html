@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Treehouse-style Header - CodePen</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,300italic|Oxygen:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+  <header>
+    <div id="badge">
+      <p>[ ak ]</p>
+    </div>
+    <h3>Front-end Web Development</h3>
+    <h1>Akshay Khullar</h1>
+    <p>I am a Front-End Web Developer currently in <a href="https://maps.google.com/maps/ms?msa=0&msid=214483946716631362315.0004bdf6a1d7497d42651&dg=feature" target="_blank">Washington D.C.</a> working for the <a href="http://www.americanhumane.org/" target="_blank">American Humane Association</a>. In short my job requires me to create visually appealing web pages or interfaces, creating, editing or modifying templates for various CMS or web dev frameworks and conducting observational user testing, or reviewing designs against usability heuristics.</p>
+    <button id ="button">UX</button>
+    <button id ="button">UI</button>
+    <button id ="button">SEO</button>
+    <button id ="button">Social Media</button>
+  </header>
+  <nav>
+    <ul>
+    <li><a href="index.html" class="selected">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+    <a href="www.linkedin.com/in/akshaykhullar/" target="_blank"><button class="twitter">Find me on LinkedIn</button></a>
+  </nav>
+  <section>
+    <h1></h1>
+  </section>
+</div>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+</body>
+<script type="text/javascript">
+  $('#badge').addClass('animated fadeInRightBig');
+  $('#badge p').click(function() {
+    $(this).addClass('animated tada');
+  });
+</script>
+
+</html>
